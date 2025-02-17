@@ -18,6 +18,3 @@ phases:
       - echo ' building the application'
       - npm run build
       - echo 'build successfull'
-  logs:
-    cloud-watch-logs:
-      status: enabled
