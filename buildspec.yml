@@ -4,12 +4,12 @@ env:
     ENV_NAME: Production
 phases:
   install:
-    runtime-versions:
+    runtime_versions:
       nodejs: 18
     commands:
       - echo 'installing the packages'
       - npm install
-  pre-build:
+  pre_build:
     commands:
       - echo 'testing the application'
       - npm test
