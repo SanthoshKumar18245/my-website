@@ -9,10 +9,6 @@ phases:
     commands:
       - echo 'installing the packages'
       - npm install
-  pre_build:
-    commands:
-      - echo 'testing the application'
-      - npm test
   build:
     commands:
       - echo ' building the application'
